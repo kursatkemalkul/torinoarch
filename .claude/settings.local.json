@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.torinoarch.com)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Kemal\\\\Desktop\\\\Kemal\\\\WEBSİTE\\\\images\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Kemal\\\\Desktop\\\\Kemal\\\\WEBSİTE\\\\css\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\Kemal\\\\Desktop\\\\Kemal\\\\WEBSİTE\\\\js\")",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Kemal\\\\Desktop\\\\Kemal\\\\WEBSİTE\" -Recurse | Select-Object FullName, @{N='Size\\(KB\\)';E={[math]::Round\\($_.Length/1KB,1\\)}})",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" -m 3 http://localhost:8000/)",
+      "Bash(netstat -ano)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" -m 3 http://localhost:8123/)",
+      "Bash(python -c \"from PIL import Image; im=Image.open\\(r'C:/Users/Kemal/Desktop/Kemal/GAME/pixelperfect-edit-1768334556923.png'\\); print\\(im.size, im.mode\\)\")"
+    ]
+  }
+}
