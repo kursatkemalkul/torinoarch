@@ -168,7 +168,7 @@
                         </div>
                     </div>
 
-                    <form class="contact-form fade-in" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+                    <form class="contact-form fade-in" id="contactForm" name="contact" method="POST" action="https://script.google.com/macros/s/AKfycbyo0c0rOT_A4TYVcJ0vnolz0R6_HFFewFL6DCMfUEh6OPzCiaJf9itLzd6wcJ2Mc6QNPQ/exec">
                         <h2 style="margin-bottom:32px;">Send a message</h2>
 
                         <input type="hidden" name="form-name" value="contact">
@@ -198,6 +198,26 @@
                             <button type="submit" class="btn">Send Message</button>
                         </div>
                     </form>
+                    <script>
+                    (function(){
+                        const f = document.getElementById('contactForm');
+                        if (!f) return;
+                        f.addEventListener('submit', async (e) => {
+                            e.preventDefault();
+                            const btn = f.querySelector('button[type="submit"]');
+                            if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+                            const fd = new FormData(f);
+                            fd.append('_origin', 'torinoarch.com');
+                            try {
+                                await fetch(f.action, { method: 'POST', body: fd, mode: 'no-cors' });
+                                window.location.href = '/thank-you.html';
+                            } catch (err) {
+                                alert('Could not send message. Please email torinoarch@gmail.com directly.');
+                                if (btn) { btn.disabled = false; btn.textContent = 'Send Message'; }
+                            }
+                        });
+                    })();
+                    </script>
 
                 </div>
             </div>
