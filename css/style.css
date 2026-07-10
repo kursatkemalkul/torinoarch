@@ -1716,7 +1716,7 @@ body.has-hero-slider .header:not(.is-scrolled) .menu-toggle span {
     justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
-    color: #666;
+    color: #8a8a8a;
 }
 
 .footer__socials {
@@ -1813,6 +1813,12 @@ body.has-hero-slider .header:not(.is-scrolled) .menu-toggle span {
 
     .nav.open {
         transform: translateY(0);
+    }
+
+    /* açık hamburger paneli beyaz zeminli: hero üstünde de linkler koyu kalmalı */
+    body.has-hero-slider .header:not(.is-scrolled) .nav a {
+        color: var(--color-text);
+        text-shadow: none;
     }
 
     .hero {

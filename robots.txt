@@ -4,8 +4,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /thank-you.html
-Disallow: /tr/thank-you.html
 
 # Major search engines — explicit allow
 User-agent: Googlebot

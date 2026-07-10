@@ -1,68 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <!-- Turkish pages (primary market) -->
-    <url>
-        <loc>https://torinoarch.com/tr/</loc><lastmod>2026-05-24</lastmod>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://torinoarch.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://torinoarch.com/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://torinoarch.com/"/>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://torinoarch.com/tr/projects.html</loc><lastmod>2026-05-24</lastmod>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://torinoarch.com/tr/projects.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://torinoarch.com/projects.html"/>
-        <changefreq>monthly</changefreq>
-        <priority>0.95</priority>
-    </url>
-    <url>
-        <loc>https://torinoarch.com/tr/about.html</loc><lastmod>2026-05-24</lastmod>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://torinoarch.com/tr/about.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://torinoarch.com/about.html"/>
-        <changefreq>monthly</changefreq>
-        <priority>0.95</priority>
-    </url>
-    <url>
-        <loc>https://torinoarch.com/tr/contact.html</loc><lastmod>2026-05-24</lastmod>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://torinoarch.com/tr/contact.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://torinoarch.com/contact.html"/>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url><loc>https://torinoarch.com/tr/project-1.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-2.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-3.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-4.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-5.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-6.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-7.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-8.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/tr/project-9.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/</loc><lastmod>2026-07-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+    <url><loc>https://torinoarch.com/tr/projects.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+    <url><loc>https://torinoarch.com/tr/about.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+    <url><loc>https://torinoarch.com/tr/contact.html</loc><lastmod>2026-07-10</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-1.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-2.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-3.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-4.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-5.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-6.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-7.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-8.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/project-9.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/tr/privacy-policy.html</loc><lastmod>2026-07-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://torinoarch.com/tr/accessibility-statement.html</loc><lastmod>2026-07-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 
     <!-- English pages -->
-    <url>
-        <loc>https://torinoarch.com/</loc><lastmod>2026-05-24</lastmod>
-        <xhtml:link rel="alternate" hreflang="en" href="https://torinoarch.com/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://torinoarch.com/tr/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://torinoarch.com/"/>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url><loc>https://torinoarch.com/projects.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/about.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-    <url><loc>https://torinoarch.com/contact.html</loc><lastmod>2026-05-24</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://torinoarch.com/project-1.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-2.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-3.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-4.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-5.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-6.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-7.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-8.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/project-9.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-    <url><loc>https://torinoarch.com/privacy-policy.html</loc><lastmod>2026-05-24</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-    <url><loc>https://torinoarch.com/accessibility-statement.html</loc><lastmod>2026-05-24</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://torinoarch.com/</loc><lastmod>2026-07-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+    <url><loc>https://torinoarch.com/projects.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/about.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+    <url><loc>https://torinoarch.com/contact.html</loc><lastmod>2026-07-10</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+    <url><loc>https://torinoarch.com/project-1.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-2.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-3.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-4.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-5.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-6.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-7.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-8.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/project-9.html</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+    <url><loc>https://torinoarch.com/privacy-policy.html</loc><lastmod>2026-07-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://torinoarch.com/accessibility-statement.html</loc><lastmod>2026-07-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>

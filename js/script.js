@@ -27,7 +27,7 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-// ---------- Contact form is handled by Netlify Forms — no JS needed ----------
+// ---------- Contact form: inline handler on contact pages posts to Google Apps Script ----------
 
 // ---------- Lightbox for project gallery ----------
 (() => {
