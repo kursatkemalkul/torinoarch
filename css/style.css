@@ -1615,8 +1615,14 @@ body.has-hero-slider .header:not(.is-scrolled) .menu-toggle span {
     font-family: var(--font-serif);
     font-size: clamp(2rem, 4vw, 3rem);
     line-height: 1.1;
-    margin-bottom: 50px;
+    margin-bottom: 12px;
     letter-spacing: -0.6px;
+}
+
+.legal-page p.legal-page__updated {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    margin-bottom: 40px;
 }
 
 .legal-page h2 {
