@@ -135,7 +135,7 @@
 
         <section class="section" style="padding-top:40px;">
             <div class="container">
-                <div class="contact-grid">
+                <div class="contact-grid" style="grid-template-columns:1fr;max-width:620px;margin:0 auto;">
 
                     <div class="contact-info fade-in">
                         <h2>İletişime Geçin</h2>
@@ -169,56 +169,7 @@
                         </div>
                     </div>
 
-                    <form class="contact-form fade-in" id="contactForm" name="contact-tr" method="POST" action="https://script.google.com/macros/s/AKfycbyo0c0rOT_A4TYVcJ0vnolz0R6_HFFewFL6DCMfUEh6OPzCiaJf9itLzd6wcJ2Mc6QNPQ/exec">
-                        <h2 style="margin-bottom:32px;">Mesaj gönderin</h2>
-
-                        <input type="hidden" name="form-name" value="contact-tr">
-                        <p style="display:none;"><label>Bunu doldurmayın: <input name="bot-field"></label></p>
-
-                        <div class="form-field">
-                            <label for="name">İsim</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-
-                        <div class="form-field">
-                            <label for="email">E-posta</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-
-                        <div class="form-field">
-                            <label for="subject">Konu</label>
-                            <input type="text" id="subject" name="subject">
-                        </div>
-
-                        <div class="form-field">
-                            <label for="message">Mesaj</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-
-                        <div style="margin-top:20px;">
-                            <button type="submit" class="btn">Mesajı Gönder</button>
-                        </div>
-                    </form>
-                    <script>
-                    (function(){
-                        const f = document.getElementById('contactForm');
-                        if (!f) return;
-                        f.addEventListener('submit', async (e) => {
-                            e.preventDefault();
-                            const btn = f.querySelector('button[type="submit"]');
-                            if (btn) { btn.disabled = true; btn.textContent = 'Gönderiliyor…'; }
-                            const fd = new FormData(f);
-                            fd.append('_origin', 'torinoarch.com/tr');
-                            try {
-                                await fetch(f.action, { method: 'POST', body: fd, mode: 'no-cors' });
-                                window.location.href = '/tr/thank-you.html';
-                            } catch (err) {
-                                alert('Mesaj gönderilemedi. Lütfen torinoarch@gmail.com adresine yazın.');
-                                if (btn) { btn.disabled = false; btn.textContent = 'Mesajı Gönder'; }
-                            }
-                        });
-                    })();
-                    </script>
+                    
 
                 </div>
             </div>

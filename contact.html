@@ -135,7 +135,7 @@
 
         <section class="section" style="padding-top:40px;">
             <div class="container">
-                <div class="contact-grid">
+                <div class="contact-grid" style="grid-template-columns:1fr;max-width:620px;margin:0 auto;">
 
                     <div class="contact-info fade-in">
                         <h2>Get in Touch</h2>
@@ -169,56 +169,7 @@
                         </div>
                     </div>
 
-                    <form class="contact-form fade-in" id="contactForm" name="contact" method="POST" action="https://script.google.com/macros/s/AKfycbyo0c0rOT_A4TYVcJ0vnolz0R6_HFFewFL6DCMfUEh6OPzCiaJf9itLzd6wcJ2Mc6QNPQ/exec">
-                        <h2 style="margin-bottom:32px;">Send a message</h2>
-
-                        <input type="hidden" name="form-name" value="contact">
-                        <p style="display:none;"><label>Don&rsquo;t fill this out: <input name="bot-field"></label></p>
-
-                        <div class="form-field">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-
-                        <div class="form-field">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-
-                        <div class="form-field">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject">
-                        </div>
-
-                        <div class="form-field">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-
-                        <div style="margin-top:20px;">
-                            <button type="submit" class="btn">Send Message</button>
-                        </div>
-                    </form>
-                    <script>
-                    (function(){
-                        const f = document.getElementById('contactForm');
-                        if (!f) return;
-                        f.addEventListener('submit', async (e) => {
-                            e.preventDefault();
-                            const btn = f.querySelector('button[type="submit"]');
-                            if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
-                            const fd = new FormData(f);
-                            fd.append('_origin', 'torinoarch.com');
-                            try {
-                                await fetch(f.action, { method: 'POST', body: fd, mode: 'no-cors' });
-                                window.location.href = '/thank-you.html';
-                            } catch (err) {
-                                alert('Could not send message. Please email torinoarch@gmail.com directly.');
-                                if (btn) { btn.disabled = false; btn.textContent = 'Send Message'; }
-                            }
-                        });
-                    })();
-                    </script>
+                    
 
                 </div>
             </div>
